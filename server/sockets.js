@@ -24,9 +24,9 @@ function startIO(app) {
 	return io;
 }
 
-/** Returns a promise to a BoardData with the given name
+ /* Returns a promise to a BoardData with the given name
  * @returns {Promise<BoardData>}
-*/
+
 function getBoard(name) {
 	if (boards.hasOwnProperty(name)) {
 		return boards[name];
@@ -35,7 +35,7 @@ function getBoard(name) {
 		boards[name] = board;
 		return board;
 	}
-}
+} */
 
 /**
  * Executes on every new connection
