@@ -23,7 +23,7 @@ async function afterEach(browser, done) {
 
 function testPencil(browser) {
     return browser
-        .assert.titleContains('WBO')
+        .assert.titleContains('Bundl.Board')
         .click('.tool[title ~= Crayon]') // pencil
         .assert.cssClassPresent('.tool[title ~= Crayon]', ['curTool'])
         .executeAsync(async function (done) {
