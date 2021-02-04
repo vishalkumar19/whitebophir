@@ -5,7 +5,7 @@ const path = require("path");
 const PORT = 8487
 const SERVER = 'http://localhost:' + PORT;
 
-let wbo, data_path;
+/* let wbo, data_path;
 
 async function beforeEach(browser, done) {
     data_path = await fs.promises.mkdtemp(path.join(os.tmpdir(), 'wbo-test-data-'));
@@ -19,7 +19,7 @@ async function beforeEach(browser, done) {
 async function afterEach(browser, done) {
     wbo.close();
     done();
-}
+} */
 
 function testPencil(browser) {
     return browser
