@@ -19,8 +19,8 @@ async function beforeEach(browser, done) {
 async function afterEach(browser, done) {
     wbo.close();
     done();
-} */
-
+}
+ */
 function testPencil(browser) {
     return browser
         .assert.titleContains('Bundl.Board')
