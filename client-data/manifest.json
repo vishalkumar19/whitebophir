@@ -1,10 +1,10 @@
 {
-    "name": "WBO Online Whiteboard",
-    "short_name": "WBO",
+    "name": "Bundl.Board Online Whiteboard",
+    "short_name": "Bundl.Board ",
     "display": "standalone",
     "background_color": "#8FA2BC",
     "theme_color": "#C4DFFF",
-    "description": "A free and opensource online collaborative drawing tool.",
+    "description": "AN online collaborative drawing tool.",
     "icons": [
         {
             "src": "favicon.svg",
